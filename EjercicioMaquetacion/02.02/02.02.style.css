@@ -1,0 +1,30 @@
+body{
+    width: 1260px;
+    margin-top: 45px;
+}
+
+#divIzq{
+    width: 780px;/*800px-20px(10px+10px)padding*/
+    height: 370px;/*400px-30px padding*/
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(121, 172, 172);
+    float: left;
+}
+
+#divDer{
+    width: 150px;/*400px-30padding-220padding*/
+    height: 150px; /*400px -50 px de padding*/
+    padding: 50px 220px 20px 30px;
+    margin-right: 20px;
+    background-color: rgb(154, 170, 170);
+    float: left;
+}
+
+footer{
+    width: 1260px;
+    height: 100px; 
+    background-color: rgb(75, 150, 150);
+    border-top: 1px solid #000;
+    clear: both;
+} 

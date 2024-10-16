@@ -1,0 +1,72 @@
+/*Poner la imagen al otro lado del texto*/
+body{
+    width: 1260px;
+    margin: 0;
+    margin-top: 45px;
+    border: solid 1px #000;
+}
+
+main{
+    background-color: bisque;
+    display: flow-root;/*Coge el tamaño del contenido*/
+    margin: 0 20px;
+}
+
+#divIzq{
+    width: 780px;/*800px-20px(10px+10px)padding*/
+    height: 370px;/*400px-30px padding*/
+    background-color: rgb(121, 172, 172);
+    float: left;
+    padding: 30px 10px 0px 10px;
+}
+
+form{
+    margin-top: 4em;
+    padding: 1em 1em 0 70px;
+    border: solid 1px #000;
+}
+
+input{
+    display: block;
+}
+
+input[type="text"]{
+    width: 490px;/*500-10padding*/
+    padding-left: 10px;
+}
+
+input[type="submit"]{
+    width: 150px;
+    height: 2em;/*Doble del tamaño de la letra*/
+    background-color: #D8D8D8;
+}
+
+
+#divDer{
+    width: 150px;/*400px-30padding-220padding*/
+    /*height: 150px; 400px -50 px de padding*/
+    padding: 0 30px; 
+    margin-left: 20px;
+    background-color: rgb(154, 170, 170);
+    float: left;
+}
+
+#divDer p {
+    margin-top: 60px;
+}
+
+#divDer img {
+    position: relative;/*Permite ajustar la posición del elemento en relación a su posición original*/
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    left: 210px;
+}
+
+footer{
+    width: 1260px;
+    height: 100px; 
+    background-color: rgb(75, 150, 150);
+    border-top: 1px solid #000;
+    clear: both;
+} 

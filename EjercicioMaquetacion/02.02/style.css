@@ -1,0 +1,30 @@
+body{
+    width: 1260px;
+    margin-top: 45px;
+    border: 1px solid #000;
+}
+
+#divIzq{
+    width: 800px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(154, 170, 170);
+    float: left;
+}
+
+#divDer{
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+    background-color: rgb(154, 170, 170);
+    float: left;
+}
+
+footer{
+    width: 1260px;
+    height: 100px;
+    background-color: rgb(75, 150, 150);
+    border-top: 1px solid #000;
+    clear: both;
+}
