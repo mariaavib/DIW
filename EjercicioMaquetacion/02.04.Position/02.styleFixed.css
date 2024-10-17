@@ -9,7 +9,7 @@ body{
 main{
     background-color: bisque;
     display: flow-root;/*Coge el tamaño del contenido*/
-    margin: 0 20px;
+    margin-right: 20px;
 }
 
 #divIzq{
@@ -41,19 +41,21 @@ input[type="submit"]{
     background-color: #D8D8D8;
 }
 
-
 #divDer{
-    width: 150px;/*400px-30padding-220padding*/
+    width: 300px;/*400px-30padding-220padding*/
     /*height: 150px; 400px -50 px de padding*/
-
     padding: 0 30px; 
     margin-left: 20px;
     background-color: rgb(154, 170, 170);
     float: left;
 }
 
-#divDer h1 {
-    position: absolute;/*Posiciona el titulo de manera absoluta*/
+#divButtom{
+    width:600px;
+    padding: 30px;
+    position: absolute;
+    background-color: #d3ffaf;
+    bottom: 60px;
 }
 
 #divDer p {
@@ -86,7 +88,6 @@ input[type="submit"]{
     text-decoration: none;
     padding: 10px 20px;
 }
-
 
 footer{
     width: 1260px;
