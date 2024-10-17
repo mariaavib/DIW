@@ -54,22 +54,22 @@ input[type="submit"]{
     margin-top: 60px;
 }
 
+img{
+    width: 200px; /*Position static*/
+}
+
 #img1{
     position: relative;/*Permite ajustar la posición del elemento en relación a su posición original*/
-    max-width: 80%;
-    max-height: 100%;
+    width: 200px;
     margin: auto;
     left: 65px;
 }
 
 #img2{
     position: relative;/*Permite ajustar la posición del elemento en relación a su posición original*/
-    max-width: 80%;
-    max-height: 100%;
+    width: 200px;
     margin: auto;
-    /* top: 6px; */
-    /* right: 5px; */
-     bottom: 50px; 
+    right: 15px;
 }
 
 footer{
