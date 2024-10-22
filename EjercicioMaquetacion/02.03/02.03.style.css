@@ -1,5 +1,5 @@
 body{
-    width: 1260px;
+    width: 100%;/*1260px = 100%*/
     margin: 0;
     margin-top: 45px;
     border: solid 1px #000;
