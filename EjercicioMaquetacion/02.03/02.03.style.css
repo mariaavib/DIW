@@ -15,7 +15,7 @@ main{
 /*Div izquierdo*/
 
 #divIzq{
-    width: 63.492%;/*800px = 800x100/1260 = 63.492%*/
+    width: 63.492%;/*800px = 800x100/1260 = 63.492%*/ /*Arreglarlo con 1220*/
     height: 370px;/*400px-30px padding*/
     background-color: rgb(121, 172, 172);
     float: left;
