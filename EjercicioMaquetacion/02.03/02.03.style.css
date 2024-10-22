@@ -6,7 +6,6 @@ body{
 }
 
 main{
-    width: 100%;
     background-color: bisque;
     display: flow-root;/*Coge el tamaño del contenido*/
     margin-left: 1.58730%;/*20px = 20x100/1260 = 1.58730%*/
