@@ -15,13 +15,13 @@ main{
 /*Div izquierdo*/
 
 #divIzq{
-    width: 63.492%;/*800px = 800x100/1260 = 63.492%*/ /*Arreglarlo con 1220*/
+    width: 63.934%;/*780px = 780x100/1220 = 63,934%*/
     height: 370px;/*400px-30px padding*/
     background-color: rgb(121, 172, 172);
-    float: left;
     padding-top: 30px;
-    padding-right: 1.25%;/*10px = 10*100/800 = 1.25%*/
-    padding-left: 1.25%;/*10px = 10*100/800 = 1.25%*/
+    padding-right: 0.8197%;/*10px = 10*100/1220 = 0,8197%*/
+    padding-left: 0.8197%;/*10px = 10*100/1220 = 0,8197%*/
+    float: left;
 }
 
 p{
@@ -52,9 +52,9 @@ input[type="submit"]{
 /*Div derecho*/
 
 #divDer{
-    width: 31,74603%;/*400px = 400*100/1260 = 31,74603%*/
+    width: 32.7869%;/*400px = 400*100/1220 = 32,7869%%*/
     height: 400px;
-    margin-left: 1,5873%; /*20px = 20*100/1260 = 1,5873%*/
+    margin-left: 1.64%; /*20px = 20*100/1220 = 1,64%*/
     background-color: rgb(154, 170, 170);
     float: left;
 }
