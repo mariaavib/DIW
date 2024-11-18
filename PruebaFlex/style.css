@@ -1,0 +1,52 @@
+p{
+    width: 10%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid rgb(107, 51, 160);
+    border-radius: 5px;
+    background-color: rgb(189, 152, 223);
+}
+
+.flex-grow{
+    display: flex;
+    border: 3px solid rgb(27, 2, 51);
+    border-radius: 5px;
+    width: 90%;
+}
+
+.flex-grow p{
+    flex-grow: 1;
+}
+
+.flex-grow1{
+    display: flex;
+    width: 80%;
+    border: 3px solid rgb(27, 2, 51);
+    border-radius: 5px;
+}
+
+.flex-grow1:nth-child(2){
+    flex-grow: 2;
+}
+
+.flex-shrink{
+    width: 30%;
+    display: flex;
+    border: 3px solid rgb(27, 2, 51);
+    border-radius: 5px;
+}
+
+.flex-shrink p{
+    flex-shrink: 1;
+}
+
+.flex-order{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 3px solid rgb(27, 2, 51);
+    border-radius: 5px;
+    width: 90%;
+}
+
+
