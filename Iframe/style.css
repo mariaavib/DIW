@@ -1,0 +1,27 @@
+ /* Estilos generales */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+}
+
+h3 {
+    text-align: center;
+    color: #555;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
