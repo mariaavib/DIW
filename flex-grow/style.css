@@ -1,0 +1,14 @@
+.contenedor{
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 223, 183);
+    border: 2px solid rgb(219, 168, 105);
+    border-radius: 4px;
+}
+
+.contenedor p{
+    width: 150px;
+    flex-grow: 1; 
+    flex-shrink: 1; 
+}
+
