@@ -14,7 +14,7 @@ header {
 }
 
 #logo{
-    width: 150px;
+    width: 70px;
     flex-shrink: 2;
     flex-grow: 2;
 }
@@ -28,7 +28,7 @@ header {
     justify-content: space-evenly;
     width: 1000px;
     list-style: none;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     align-items: center;
     flex-shrink: 6;
     flex-grow: 6;
@@ -51,8 +51,11 @@ header {
     background-color: #555;
 }
 
-a{
+main a{
     padding: 10px;
+    position: relative;
+    top: 30px;
+    left: 15px;
     text-decoration: none;
     background-color: #444;
     color: #fff;
