@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    background-color: rgb(187, 223, 152);   
+    width: 100%;
+}
+
+#img{
+    width: 150px;
+    justify-content: center;
+
+}
+
+#img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+nav ul li {
+    padding: 10px 20px;
+    background-color: rgb(71, 118, 26);
+    border-radius: 5px;
+    border: solid 2px rgb(71, 118, 26);
+    cursor: pointer;
+    margin-right: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+nav ul li:hover {
+    background-color: rgb(220, 220, 220);
+}
