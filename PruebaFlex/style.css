@@ -9,27 +9,33 @@ header {
     padding: 20px;
 }
 
-#nav {
+.nav {
     display: flex;
 }
 
+#logo{
+    width: 150px;
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+
 #logo img {
-    width: 150px; 
+    width: 100%; 
 }
 
 .nav-menu {
     display: flex;  
+    justify-content: space-evenly;
     width: 1000px;
     list-style: none;
     border: 1px solid white;
+    align-items: center;
+    flex-shrink: 6;
+    flex-grow: 6;
 }
 
 .nav-menu li {
-    margin-left: 20px;  
-    flex-basis: 200px;
-    flex-wrap: wrap;
-    flex: 1;
-    flex-shrink: 1;
+    margin-left: 20px; 
 }
 
 .nav-menu li a {
