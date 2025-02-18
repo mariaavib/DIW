@@ -9,10 +9,11 @@ header {
     padding: 20px;
 }
 
+/*Hacer flexible el contenedor nav*/
 .nav {
     display: flex;
 }
-
+/*Contenedor para la imagen*/
 #logo{
     width: 10px;
     flex-shrink: 2;
@@ -20,18 +21,18 @@ header {
 }
 
 #logo img {
-    width: 100%; 
+    width: 100%;/*Le he puesto el ancho del 100% para que ocupe el contenedor*/
 }
 
 .nav-menu {
-    display: flex;  
+    display: flex; 
     justify-content: space-evenly;
     width: 1000px;
     list-style: none;
     /* border: 1px solid white; */
     align-items: center;
-    flex-shrink: 6;
-    flex-grow: 6;
+    flex-shrink: 1; /*Hace que se encojan para entrar en su contenedor*/
+    flex-grow: 1; 
 }
 
 .nav-menu li {
