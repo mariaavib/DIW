@@ -1,66 +1,68 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #333;
-    padding: 20px;
-}
-
-/*Hacer flexible el contenedor nav*/
-.nav {
-    display: flex;
-}
-/*Contenedor para la imagen*/
-#logo{
-    width: 10px;
-    flex-shrink: 2;
-    flex-grow: 2;
-}
-
-#logo img {
-    width: 100%;/*Le he puesto el ancho del 100% para que ocupe el contenedor*/
-}
-
-.nav-menu {
-    display: flex; 
-    justify-content: space-evenly;
-    width: 1000px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex; /*Utilizo flex para hacer el contenedor flexible*/ 
+    align-items: center;/*Alinear los elementos del header verticalmente en el centro*/
+    justify-content: space-between;/*Distribuye los elementos del header con espacio entre ellos*/
+    width: 100%;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .logo {
+    width: 150px;/*Ancho de la imagen*/
+  }
+  
+  nav {
+    display: flex; /*Utilizo flex para hacer el contenedor flexible*/
+    flex-grow: 1; /*Hace que los elementos del nav crezcan para ocupar el espacio disponible por defecto es 0*/
+    flex-shrink: 1;
+    justify-content: center; /*Centra los elementos en el nav*/
+  }
+  
+  ul {
+    display: flex; /*Utilizo flex para hacer el contenedor flexible*/
     list-style: none;
-    /* border: 1px solid white; */
-    align-items: center;
-    flex-shrink: 1; /*Hace que se encojan para entrar en su contenedor*/
-    flex-grow: 1; 
-}
+    width: 900px;
+    /*border: 1px solid #0056b3;*/
+  }
+  
+  li {
+    flex-grow: 1; /*Permite que cada li crezca para ocupar  el espacio disponible*/
+    flex-shrink: 1; /*Permite que cada li se encoja si no cabe*/
+    flex-basis: 150px; /*Tamaño inicial de cada li*/
+    margin: 0 5px; 
+  }
+   
+  .navidad {
+    flex-grow: 3; /* Hace que el enlace "Navidad" ocupe más espacio */
+  }
 
-.nav-menu li {
-    margin-left: 20px; 
-}
-
-.nav-menu li a {
+  a {
+    display: block;
+    text-align: center;
     padding: 10px;
-    color: #fff;
+    background-color: #c69f4a9e;
+    color: white;
     text-decoration: none;
-    background-color: #444;
     border-radius: 5px;
-    transition: background-color 0.3s;
-}
+    transition: background 0.3s;
+    white-space: nowrap;
+  }
+  
+  a:hover {
+    background-color: #0056b3;
+  }
 
-.nav-menu li a:hover {
-    background-color: #555;
-}
-
-/*Boton para ir a la otra página*/
-main a{
-    padding: 10px;
-    position: relative;
-    top: 30px;
-    left: 15px;
-    text-decoration: none;
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
+  main a{
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
